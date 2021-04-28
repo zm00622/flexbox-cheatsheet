@@ -1,0 +1,130 @@
+h1, p {
+  text-align: center;
+}
+
+/*********************************************/
+/* flex-container using space-around */
+.space-around {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: space-around;
+}
+
+.space-around > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*********************************************/
+
+/*********************************************/
+/* flex-container using space-between */
+.space-between {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: space-between; 
+}
+
+.space-between > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*********************************************/
+
+/* flex-container using center */
+.center {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: center;
+}
+
+.center > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*********************************************/
+
+/* flex-container using flex-start */
+.flex-start {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: flex-start;
+}
+
+.flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*********************************************/
+
+.flex-end {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: flex-end;
+}
+
+.flex-end > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*********************************************/
+
+/* flext-container using flex-direction: column */
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  align-items: center;
+/*   align-items: flex-start; */
+/*   align-items: flex-end; */
+/*  align-items: space-around; */
+/*  align-items: space-between; */
+}
+
+.column > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+
+
